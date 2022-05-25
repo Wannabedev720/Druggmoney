@@ -1,3 +1,18 @@
+/*Head*/
+a {
+  color: white;
+}
+a:visited{
+  color: white;
+}
+a:hover{
+  color: blue;
+}
+a:active
+{
+  color: white;
+}
+
 /*Header*/
 header{
     background: linear-gradient(90deg,rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
@@ -12,22 +27,49 @@ h1{
 
 body{
     background-color: rgb(0, 0, 0);
-}
-section{
-    background-color: red;
-   
-}
-article{
-    background-color: aqua;
-}
-
-div{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    font-family: "Comic Sans MS", "Comic Sans";
+    color: white;
 }
 hr{
     height: 2px;
     background-color: brown;
     border-color: brown;
+}
+/*Footer*/
+nav, th{
+    color: red;
+}
+nav, tr{
+    
+    margin-right: 20%;
+}
+/*Homepage*/
+.landing{
+    width: 90%;
+    height: 700px;
+    background: rgb(0, 255, 255);
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 5px solid red;
+    color: black;
+
+}
+/*Captains-Log*/
+.log{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.blog{
+    background-color: rgb(0, 205, 0);
+    border: 5px solid black;
+}
+.blogtitle{
+    background-color: red;
+    border: 5px solid red;
+   
 }
