@@ -1,69 +1,75 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="description" content="Media">
-        <meta name=“author” content=“Michael Cuellar“ />
-	    <meta name=“keywords” content=“kabunky” />
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
-        <title>DruggmoneyMedia</title>
-
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name=“author” content=“Michael Cuellar“ />
+	<meta name=“keywords” content=“kabunky” />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <title>Beta Test!</title>
+</head>
+<body>
+    <div class="header">
         <header>
-            <h1>DruggmoneyMedia</h1>
-        </header>
-        <hr>
-        <nav class="navigator">
-            <table>
-                <tr>
-                    <td><a href="index.html">Home </a> </td>
-                    <td>|</td>
-                    <td><a href="blog.html">Log </a> </td>
-                    <td>|</td>
-                    <td><a href="media.html">Media</a></td>
-                </tr>
-            </table>
+            <h1 style="font-family: Comic Sans MS;">DruggmoneyMedia</h1>
+            <div class="searchbar">
+                <input type="search" id="search" name="search" placeholder="Search" />
+                <input type="button" value="search" />
+            </div>
+            <div class="Log-in">
+                <form id="Log-in">
+                    <div><input type="email" name="email" id="email"  placeholder="Email" required /></div>
+                    <div><input type="password" name="password" id="password" placeholder="Password" required /> </div>
+                    <input type="button" value="Log in" /> <input type="button" onclick="window.location.href = 'register.html';" value="Create Account" />
+                </form>
+            </div>
+        </header>   
+        <hr/>
+    </div>
+    <div class="navigation">
+        <nav>
+            <a href="index.html">Home</a>
+            <span>|</span>
+            <a href="blog.html">Log</a>
+            <span>|</span>
+            <a href="media.html">Media</a>
+            <span>|</span>
+            <a href="profile.html">My Profile</a>
         </nav>
-        <hr>
-        <main>
-            <p>Greatness incoming!</p>
-        </main>
-        <hr>
-        <footer>
-            <nav>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Social Media</th>
-                            <th>Legal</th>
-                        </tr>
-                    </thead>
-                    <tbody>
+    </div>
+    <hr/>
 
-                        <tr>
-                            <td><a href="https://truthsocial.com/@Druggmoney" target="_blank">Truth</a></td>
-                            <td><a href="https://www.youtube.com/watch?v=mnOZ_KdwVCI">Terms of Service</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://www.youtube.com/channel/UCqyshFEuquGqJbilGofBerQ" target="_blank">Youtube</a></td>
-                            <td><a href="privacy.html">Privacy</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://www.facebook.com/Druggmoneymikez/" target="_blank">Facebook</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://twitter.com/DM_Mikez" target="_blank">Twitter</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://github.com/Wannabedev720" target="_blank">Github</a></td>
-                        </tr>
+    <main>
+        <h1>Hello World!</h1>
 
-                    </tbody>
-                </table>
+    </main>
+    <hr/>
+    <footer>
+        <div class="social">
+            <h3>Social Meida</h3>
+            <p><a href="https://www.truthsocial.com/@Druggmoney" target="_blank">Truth </a> </p>
+            <p><a href="https://www.facebook.com/Druggmoneymikez/" target="_blank">Facebook </a> </p>
+            <p><a href="https://www.youtube.com/watch?v=mnOZ_KdwVCI" target="_blank">Youtube </a> </p>
+            <p><a href="https://twitter.com/DM_Mikez" target="_blank">Twitter </a> </p>
+            <p><a href="https://github.com/Wannabedev720" target="_blank">Github </a> </p>
 
-            </nav>
-            
-        </footer>
-    </body>
+        </div>
+        <div class="legal">
+            <h3>Legal</h3>
+            <p><a href="https://www.youtube.com/watch?v=mnOZ_KdwVCI" target="_blank">Terms of Service</a> </p>
+            <p><a href="privacy.html" target="_blank">Privacy</a> </p>
+        </div>
+        <div class="development">
+            <h3>Development</h3>
+            <p><a href="beta.html">Beta</a> </p>
+            <p><a href="portal.html">Developer Portal</a> </p>
+
+          
+
+        </div>
+        
+        
+    </footer>
+</body>
 </html>

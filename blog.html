@@ -6,81 +6,93 @@
         <meta name=“author” content=“Michael Cuellar“ />
 	    <meta name=“keywords” content=“kabunky” />
         <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <meta content='width=device-width, initial-scale=1' name='viewport' />
         <title>Druggmoney</title>
 
     </head>
     <body>
-        <header>
-            <h1>Captain's Log</h1>
-        </header>
-        <hr>
-        <nav class="navigator">
-            <table>
-                <tr>
-                    <td><a href="index.html">Home </a> </td>
-                    <td>|</td>
-                    <td><a href="blog.html">Log </a> </td>
-                    <td>|</td>
-                    <td><a href="media.html">Media</a></td>
-                </tr>
-            </table>
-        </nav>
-        <hr>
+        <div class="header">
+            <header>
+                <h1>Druggmoney</h1>
+                <p style="font-family: Comic Sans MS;">Developer's Diary</p>
+                <div class="searchbar">
+                    <input type="search" id="search" name="search" placeholder="Search" />
+                    <input type="button" value="search" />
+                </div>
+                <div class="Log-in">
+                    <form id="Log-in">
+                        <div><input type="email" name="email" id="email"  placeholder="Email" required /></div>
+                        <div><input type="password" name="password" id="password" placeholder="Password" required /> </div>
+                        <input type="button" value="Log in" /> <input type="button" onclick="window.location.href = 'register.html';" value="Create Account" />
+                    </form>
+                </div>
+            </header>   
+            <hr/>
+        </div>
+        <div class="navigation">
+            <nav>
+                <a href="index.html">Home</a>
+                <span>|</span>
+                <a href="blog.html">Log</a>
+                <span>|</span>
+                <a href="media.html">Media</a>
+                <span>|</span>
+                <a href="profile.html">My Profile</a>
+            </nav>
+        </div>
+        <hr/>
+    
         <main>
             <div class="log">
                 <section class="blogtitle">
                     5/24/2022
                     <article class="blog">
-                        <p>Captain's Log: Reporting In! Welcome to Druggmoney, my name is Michael and I am new to web development. I did a few courses on <a href="https://freecodecamp.org" target="_blank"> FreeCodeCamp,</a>built a <a href="https://github.com/Wannabedev720/TequeManialv" target="_blank">shitty website </a> for my step mom... she didnt really care for it lol. Afterwards I switched to <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a>, Learned about CLI(command line interface) still dont have a solid grip on that... then I learned about Git and Git Hub. felt confident enough to start Druggmoney. now my brain is overloaded and I forgot how to HTML.. lol bed time!! </p>
+                        <p><strong>Captain's Log:</strong> Reporting In! Welcome to Druggmoney, my name is Michael and I am new to web development. I did a few courses on <a href="https://freecodecamp.org" target="_blank"> FreeCodeCamp,</a>built a <a href="https://github.com/Wannabedev720/TequeManialv" target="_blank">shitty website </a> for my step mom... she didnt really care for it lol. Afterwards I switched to <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a>, Learned about CLI(command line interface) still dont have a solid grip on that... then I learned about Git and Git Hub. felt confident enough to start Druggmoney. now my brain is overloaded and I forgot how to HTML.. lol bed time!! </p>
 
                     </article>
                 </section>
                 <section class="blogtitle">
                     5/25/2022
                     <article class="blog">
-                        <p>Captain's Log: I'm still not sure what to do with my homepage and media page. my skills arent at the level to make any vision of mine come to life. I wanna add a slide show on my homepage, that will show everything im working on. I think that'd be cool.</p>
+                        <p><strong>Captain's Log:</strong> I'm still not sure what to do with my homepage and media page. my skills arent at the level to make any vision of mine come to life. I wanna add a slide show on my homepage, that will show everything im working on. I think that'd be cool.</p>
 
+                    </article>
+                </section>
+                <section class="blogtitle">
+                    5/29/2022
+                    <article class="blog">
+                        <p><strong>Captain's Log:</strong> I've been kicking ass on FreeCodeCamp. i gave this website a new makeover, and gave it a fake search bar and log in section.  </p>
                     </article>
                 </section>
             </div>
            
         </main>
-        <hr>
-
+        <hr/>
         <footer>
-            <nav>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Social Media</th>
-                            <th>Legal</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-
-                        <tr>
-                            <td><a href="https://truthsocial.com/@Druggmoney" target="_blank">Truth</a></td>
-                            <td><a href="https://www.youtube.com/watch?v=mnOZ_KdwVCI">Terms of Service</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://www.youtube.com/channel/UCqyshFEuquGqJbilGofBerQ" target="_blank">Youtube</a></td>
-                            <td><a href="privacy.html">Privacy</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://www.facebook.com/Druggmoneymikez/" target="_blank">Facebook</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://twitter.com/DM_Mikez" target="_blank">Twitter</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://github.com/Wannabedev720" target="_blank">Github</a></td>
-                        </tr>
-
-                    </tbody>
-                </table>
-
-            </nav>
+            <div class="social">
+                <h3>Social Meida</h3>
+                <p><a href="https://www.truthsocial.com/@Druggmoney" target="_blank">Truth </a> </p>
+                <p><a href="https://www.facebook.com/Druggmoneymikez/" target="_blank">Facebook </a> </p>
+                <p><a href="https://www.youtube.com/watch?v=mnOZ_KdwVCI" target="_blank">Youtube </a> </p>
+                <p><a href="https://twitter.com/DM_Mikez" target="_blank">Twitter </a> </p>
+                <p><a href="https://github.com/Wannabedev720" target="_blank">Github </a> </p>
+    
+            </div>
+            <div class="legal">
+                <h3>Legal</h3>
+                <p><a href="https://www.youtube.com/watch?v=mnOZ_KdwVCI" target="_blank">Terms of Service</a> </p>
+                <p><a href="privacy.html" target="_blank">Privacy</a> </p>
+            </div>
+            <div class="development">
+                <h3>Development</h3>
+                <p><a href="beta.html">Beta</a> </p>
+                <p><a href="portal.html">Developer Portal</a> </p>
+    
+              
+    
+            </div>
+            
             
         </footer>
     </body>
-</html>
+    </html>
